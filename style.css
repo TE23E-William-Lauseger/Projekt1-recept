@@ -3,6 +3,10 @@ body{
     grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: 13vh 53vh 30vh;
     gap: 10px;
+    background-image: url(./img/träskiva.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 #r{
     grid-column: 1/4;
@@ -55,4 +59,7 @@ h2{
     grid-template-columns: 3/4;
     grid-template-rows: 2/3;
     margin-left: 60px;
+}
+a{
+    color: gainsboro;
 }
