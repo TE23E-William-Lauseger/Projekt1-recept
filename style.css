@@ -54,12 +54,19 @@ h2{
     grid-row: 2/3;
 }
 #jordgubbspaj{
-    height: 120px;
-    width: 200px;
+    height: 150px;
+    width: 210px;
     grid-template-columns: 3/4;
     grid-template-rows: 2/3;
     margin-left: 60px;
 }
 a{
     color: gainsboro;
+    display: flex;
+    flex-direction: column;
+}
+#länkar{
+    grid-template-columns: 3/4;
+    grid-template-rows: 3/4;
+    text-align: center;
 }
